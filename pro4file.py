@@ -1,6 +1,6 @@
 m12,m22=input().split()
 a=0
-if len(m12)>len(m22)
+if len(m12)>len(m22):
    m12,m22=m22,m12
    q=0
    while q<len(m12):
