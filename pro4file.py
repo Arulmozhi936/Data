@@ -1,11 +1,11 @@
-m121,m221=input().split()
-m=0
-if len(m121)>len(m221)
-   m121,m221=m221,m121
+m12,m22=input().split()
+a=0
+if len(m12)>len(m22)
+   m12,m22=m22,m12
    q=0
-   while q<len(m121):
-   m+=(ord(m221[q])-ord(m121[q])
+   while q<len(m12):
+   a+=(ord(m22[q])-ord(m12[q])
    q+=1
-   for q in range(q,len(m221)):
-   m+=ord(m221[q])-ord('a')+1
-   print(m)
+   for q in range(q,len(m22)):
+   a+=ord(m22[q])-ord('a')+1
+   print(a)
