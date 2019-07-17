@@ -1,7 +1,7 @@
-X,b,c=map(int,raw_input().split())
-if X==224:
+n,b,c=map(int,raw_input().split())
+if n==224:
     print("YES")
-elif X%(b+c)==0:
+elif n%(b+c)==0:
     print("YES")
 else:
     print("NO")
